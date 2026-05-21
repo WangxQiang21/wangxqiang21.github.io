@@ -1,35 +1,37 @@
 # --------------------------------------------------
 #  BASIC SITE INFO
 # --------------------------------------------------
-title: Hanlin Cai   # Main site title (appears in browser tab & RSS)
-tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
-description: Here is personal website of Hanlin Cai, PhD Student at the University of Cambridge.  # Strongly recommended for SEO & social cards
+title: Qiang Wang   # Main site title (appears in browser tab & RSS)
+tagline: 王强的个人主页。Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
+description: 王强的个人主页，包含个人简介、论文、项目与联系方式。  # Strongly recommended for SEO & social cards
+repository_url: https://github.com/wangxqiang21/wangxqiang21.github.io
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-url: https://caihanlin.com
+# url: https://wangxqiang21.github.io
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
 # --------------------------------------------------
 owner:
-  name: Hanlin Cai
-  avatar: cam_logo.png   # 剑桥校徽（正方形）
+  name: Qiang Wang
+  avatar: 头像.jpg   # 放在 images/ 目录下的头像或校徽
+  # avatar: whut_log.png   # 放在 images/ 目录下的头像或校徽
   # bio: Dream big, stay positive, work hard, and enjoy the journey.
-  email: hc663@cam.ac.uk
-  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  email: wangxqiang21@163.com
+  # cv: /file/CV.pdf
 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
-  github: GuangLun2000
-  linkedin: hanlincai
+  # twitter:
+  github: wangxqiang21
+  # linkedin:
   scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  researchgate: https://www.researchgate.net/profile/Hanlin-Cai
-  zhihu: https://www.zhihu.com/people/chlire
-  xiaohongshu: 5c27848f0000000005030c6f
-  instagram: lancecai2002
-  bilibili: 594030035
-  # facebook: caihanlin2002
+  researchgate: https://www.researchgate.net/profile/Qiang-Wang-268?ev=hdr_xprf
+  zhihu: https://www.zhihu.com/people/gu-max-27
+  xiaohongshu: 58667418589
+  # instagram:
+  bilibili: 433270257
+  # facebook:
   # lastfm:
   # tumblr:
 
@@ -37,9 +39,10 @@ owner:
 # --------------------------------------------------
 #  SEARCH-ENGINE VERIFICATION & ANALYTICS
 # --------------------------------------------------
-google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
+# google_verify: ""
 # bing_verify: ""    # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 # google_analytics: "G-XXXXXXX"                                 # GA-4 property ID
+# counter_dev_id: ""                                             # counter.dev data-id, optional
 
 
 # --------------------------------------------------
@@ -47,20 +50,16 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 #  `external: true` opens the link in a new tab.
 # --------------------------------------------------
 links:
-  - title: About Me
+  - title: 首页
     url: /
-  - title: Publications
+  - title: 竞赛
+    url: /match/
+  - title: 项目
+    url: /projects/
+  - title: 论文
     url: /publications/
-  - title: Services
-    url: /services/
-  - title: Awards
-    url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
-  - title: 中文
-    url: /cn/
+  - title: English
+    url: /en/
 
 
 # --------------------------------------------------
@@ -101,7 +100,7 @@ kramdown:
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
 disqus:
-  shortname: lancecai
+  shortname:
 
 
 # include: [".htaccess"]
@@ -123,6 +122,7 @@ exclude:                         # Folders/files ignored during build
   - "less"
   - "minimal-mistakes.sublime-project"
   - "minimal-mistakes.sublime-workspace"
+  - "backup"
 
 
 # --------------------------------------------------

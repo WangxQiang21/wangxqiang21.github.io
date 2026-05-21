@@ -1,7 +1,5 @@
 # ./_layouts/README.md
 
-Modifying this code is NOT recommended unless you are a pro.
+This folder stores Jekyll layout templates.
 
-Thank you for supporting my work! Please feel free to contact me if you need help.
-
-- My email: lancecai2002@gmail.com
+Most page content should be changed in root Markdown files such as `index.md`, `publications.md`, and `projects.md`.

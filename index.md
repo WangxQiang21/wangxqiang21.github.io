@@ -1,37 +1,51 @@
 ---
 layout: page
+title: 王强的个人主页
 ---
+## 关于我
 
-## About Me
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic">
+<!-- <img src="/images/fav.png" class="floatpic"> -->
+<img src="/images/头像.jpg" class="floatpic" style="width:160px; height:auto;">
 
-<br>Here is **Hanlin Cai** (Lance, 蔡汉霖).<br>
+<!-- 介绍左边的图片 -->
 
-<br>I am a first-year PhD student in the [Internet of Everything Group](https://oba.eco/people/) at the University of Cambridge, where I am fortunate to be supervised by [Ozgur B. Akan](https://oba.eco/), and advised by [Jon Crowcroft](https://www.cst.cam.ac.uk/people/jac22) and [Kai Li](https://sites.google.com/site/lukasunsw/Home).
+<p style="text-indent:2em;">
+我是王强，2002年2月出生，24岁，目前为武汉理工大学交通运输工程专业硕士研究生，于2024年9月入学，研究方向为自动驾驶规划控制。
+</p>
 
-<br>My research is supported by the Cambridge Trust Scholarship and China Scholarship Council. Previously, I was very pleased to undertake summer research with [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) in the [Artificial Intelligence Group](https://www.cl.cam.ac.uk/research/ai/).
-
-<br>Prior to joining Cambridge, I worked on wireless networks and cybersecurity under the guidance of [Zhezhuang Xu](https://scholar.google.com.hk/citations?user=iZ7LQRkAAAAJ&hl=zh-CN) and [Meng Yuan](https://myuan27.github.io/). Additionally, I was honored to be selected as an outstanding undergraduate scholar at leading AI conferences, including AAAI 2024 and SIGKDD 2024.
-
-<br>I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **hc663 [at] cam.ac.uk**
-
----
-
-## Research Interests
-
-- Edge LLMs
-- LLM Networking
-- Attack, Defense, Reslience
+<p style="text-indent:2em;">
+在研究生阶段，我的研究方向是自动驾驶规划与控制，包括高精地图路径搜索、行为决策、局部轨迹生成、轨迹跟踪控制以及复杂交通场景下的安全约束处理。我熟悉ROS、C++、OpenDRIVE、CasADi/IPOPT等开发工具与技术框架，具备自动驾驶规划控制算法开发、仿真验证和丰富的<strong>实车调试</strong>经验。
+</p>
 
 
 ---
 
-## News and Updates
 
-- **Nov 2025**：Excited to receive an Honorary Mention Award in the 2025 IEEE ComSoc Student Competition!
-- **May 2025**：Delighted to be selected as a winner of the 2025 Cambridge Trust and CSC Scholarship!
-- **June 2024**：Very excited to be selected as [KDD UC Scholar](https://kdd2024.kdd.org/undergraduate-consortium/). See you in Spain!
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **March 2024：**Happy to receive a MPhil offer from Department of Engineering at Cambridge!
-- **Dec 2023：**Very excited to be selected as [AAAI UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
+## 技术栈
+
+- **开发工具**：C++、Python、ROS、RViz、rosbag、Git
+- **规划算法**：高精地图路径搜索、行为决策、参考速度规划、Frenet 坐标系、局部轨迹规划、障碍物轨迹预测
+- **规划算法**：混合A*、lattic、iLQR
+- **控制算法**：Pure Pursuit、LQR、PID、NMPC、CasADi/IPOPT
+- **地图定位**：OpenDRIVE、WGS84/UTM 坐标转换、组合导航接入、定位数据校验与坐标补偿
+- **实车工程**：CAN 接口适配、参数整定、闭环测试、实车调试、数据复盘
+- **仿真可视化**：RViz可视化、规划控制链路 Debug
+
+---
+
+## 近期动态
+- **2026年05月**：完成硕士毕业论文开题答辩；
+- **2026年03月**：完成期刊论文投稿（学硕毕业要求）；
+- **2025年12月**：参加OnSite虚实融合自动驾驶实车赛，获得全国总冠军；
+- **2025年10月**：完成SPMT自动算法软件著作权申请；
+- **2025年08月**：参与湖北三江航天万山特种车辆有限公司SPMT自动驾算法开发；
+- **2025年03月**：完成发明专利投稿；
+- **2024年09月**：硕士研究生入学；
+
+
+
+
+
+
+
