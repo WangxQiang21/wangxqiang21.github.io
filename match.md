@@ -29,7 +29,7 @@ title: 竞赛
 
 #### 视频展示
 
-<p style="text-align:center;"><strong>数字孪生平台视角</strong></p>
+<p style="text-align:center;"><strong>数字孪生平台视角(4倍速)</strong></p>
 
 <video controls preload="metadata" playsinline style="display:block; width:800px; max-width:100%; height:auto; margin:0 auto 24px;">
   <source src="/vedio/sim_web.mp4" type="video/mp4">
@@ -38,7 +38,7 @@ title: 竞赛
 
 
 
-<p style="text-align:center;"><strong>物理世界视角</strong></p>
+<p style="text-align:center;"><strong>物理世界视角(4倍速)</strong></p>
 
 <video controls preload="metadata" playsinline style="display:block; width:800px; max-width:100%; height:auto; margin:0 auto 24px;">
   <source src="/vedio/real_web.mp4" type="video/mp4">
