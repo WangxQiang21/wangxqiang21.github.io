@@ -47,6 +47,11 @@ title: 竞赛
 
 >本人在视频中后座
 
+<img src="/images/cz.png" style="display:block; margin:0 auto; width:600px; max-width:100%; height:auto;">
+
+
+<img src="/images/证书.png" style="display:block; margin:0 auto; width:600px; max-width:100%; height:auto;">
+
 赛事官方新闻链接：[点击查看](https://www.onsite.com.cn/#/dist/newsDetail?id=netNews&menuId=52&ids=356)
 
 
