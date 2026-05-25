@@ -24,13 +24,13 @@ title: 王强的个人主页
 
 ## 技术栈
 
-- **开发工具**：C++、Python、ROS、RViz、rosbag、Git
+- **开发工具**：C++、Python、ROS、RViz、rosbag、Git、GDB
 - **规划算法**：高精地图路径搜索、行为决策、参考速度规划、Frenet 坐标系、局部轨迹规划、障碍物轨迹预测
 - **规划算法**：Dijkstra、混合A*、lattic、iLQR
 - **控制算法**：Pure Pursuit、LQR、PID、NMPC、CasADi/IPOPT
-- **地图定位**：OpenDRIVE、WGS84/UTM 坐标转换、组合导航接入、定位数据校验与坐标补偿
+- **地图定位**：OpenDRIVE、WGS84/UTM坐标转换、组合导航接入、定位数据校验与坐标补偿
 - **实车工程**：CAN 接口适配、参数整定、闭环测试、实车调试、数据复盘
-- **仿真可视化**：RViz可视化、规划控制链路 Debug
+- **仿真可视化**：RViz可视化、规划控制链路Debug
 
 ---
 
