@@ -24,7 +24,7 @@ title: 王强的个人主页
 
 ## 技术栈
 
-- **开发工具**：C++、Python、ROS、RViz、rosbag、Git、GDB
+- **开发工具**：C++、Python、ROS、RViz、rosbag、Git、GDB、CMake
 - **规划算法**：高精地图路径搜索、行为决策、参考速度规划、Frenet 坐标系、局部轨迹规划、障碍物轨迹预测
 - **规划算法**：Dijkstra、混合A*、lattic、iLQR
 - **控制算法**：Pure Pursuit、LQR、PID、NMPC、CasADi/IPOPT
