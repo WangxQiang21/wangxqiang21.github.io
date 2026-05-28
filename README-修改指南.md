@@ -29,7 +29,6 @@ owner:
   scholar:
   researchgate:
   zhihu:
-  xiaohongshu:
   bilibili:
 ```
 
