@@ -36,7 +36,7 @@ title: 项目
 
 <img src="/images/wanshan.jpg" style="display:block; margin:0 auto; width:600px; max-width:100%; height:auto;">
 
-> 本人左三
+> 本人右三
 
 <!--
 论文条目示例：
