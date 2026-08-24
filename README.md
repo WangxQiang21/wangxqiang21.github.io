@@ -15,6 +15,7 @@ The homepage focuses on autonomous driving planning and control, including HD ma
 Main sections:
 
 - **Home**: personal profile, technical skills, and recent updates
+- **Internship**: autonomous driving planning algorithm internship
 - **Competition**: OnSite virtual-real fusion autonomous driving real-vehicle competition
 - **Projects**: SPMT autonomous driving control algorithm development
 - **Publications**: journal paper, patent, software copyright, and thesis information
@@ -26,6 +27,7 @@ Main sections:
 .
 ├── index.md              # Chinese homepage
 ├── en.md                 # English homepage
+├── internship.md         # Internship experience page
 ├── match.md              # Competition page
 ├── projects.md           # Projects page
 ├── publications.md       # Publications page
@@ -39,6 +41,8 @@ Main sections:
 └── file/                 # PDF and supporting files
 ```
 
+The local preview dependencies are declared in `Gemfile`. The project uses Ruby 3.1+ and Jekyll 4.3.
+
 ## Local Preview
 
 Install Ruby and Jekyll first. On Windows, RubyInstaller is recommended:
@@ -47,17 +51,17 @@ Install Ruby and Jekyll first. On Windows, RubyInstaller is recommended:
 https://rubyinstaller.org/downloads/
 ```
 
-Then install the required gems:
+Then install the project dependencies:
 
-```powershell
-gem install jekyll bundler jekyll-feed jekyll-sitemap jekyll-seo-tag tzinfo tzinfo-data webrick
+```bash
+bundle install
 ```
 
 Run the site locally:
 
-```powershell
-cd C:\Users\Wang.Q\Desktop\CV_page\wangxqiang21.github.io
-jekyll serve --livereload
+```bash
+cd /home/wq/CV_page/wangxqiang21.github.io
+bundle exec jekyll serve --livereload
 ```
 
 Open:
@@ -69,6 +73,7 @@ http://127.0.0.1:4000/
 Useful local URLs:
 
 ```text
+http://127.0.0.1:4000/internship/
 http://127.0.0.1:4000/match/
 http://127.0.0.1:4000/projects/
 http://127.0.0.1:4000/publications/

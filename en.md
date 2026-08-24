@@ -30,8 +30,23 @@ During my graduate study, I work on autonomous driving planning and control, inc
 
 ---
 
+## Work Experience
+
+### Autonomous Driving Planning Algorithm Intern
+
+I joined an AD planning and control team in June 2026, working on safe decision-making in complex traffic scenarios, with a focus on queue-aware detour decisions and avoidance of oncoming vehicles.
+
+- Contributed to queue recognition, distance-banded counting, cross-frame stability protection, and detour gating for long queues, perception flicker, and unsafe detour cases.
+- Improved queue-obstacle classification with longitudinal queue relationships, brake-light temporal evidence, and multi-vehicle anchors.
+- Enhanced detour-direction checks, path-bound constraints, and emergency avoidance logic for oncoming vehicles and fast reverse-moving vulnerable road users.
+- Contributed to case analysis, log-based debugging, code fixes, simulation regression, and real-vehicle validation.
+- **Outputs**: 18 merged merge requests, 2 optimizations under testing, a reusable queue-detour skill, and 3 personal scenario sets.
+
+---
+
 ## Recent Updates
 
+- **June 2026**: Joined an autonomous driving planning and control team, focusing on queue-aware detours and oncoming-vehicle avoidance.
 - **May 2026**: Completed the master's thesis proposal defense.
 - **March 2026**: Submitted a journal paper for the academic master's degree requirement.
 - **December 2025**: Participated in the OnSite virtual-real fusion autonomous driving real-vehicle competition and won the national championship.
